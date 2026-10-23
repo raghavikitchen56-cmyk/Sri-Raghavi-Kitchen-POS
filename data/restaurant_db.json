@@ -1,0 +1,857 @@
+{
+  "restaurant": {
+    "name": "Sri Raghavi Kitchen",
+    "tagline": "Authentic South Indian & Tiffin Kitchen",
+    "address": "No. 42, Annai Gandhi Street, Junction Main Road, Salem - 636004",
+    "phone": "+91 94432 10987",
+    "gstNumber": "33AABCS1429B1Z8",
+    "gstPercentage": 5,
+    "defaultParcelCharge": 10,
+    "kitchenPin": "9999"
+  },
+  "soundSettings": {
+    "enabled": true,
+    "volume": 0.85,
+    "newOrderSound": true,
+    "readyOrderSound": true,
+    "requestAlertSound": true,
+    "soundType": "loud_bell"
+  },
+  "tables": [
+    {
+      "id": "tbl-1",
+      "tableNumber": 1,
+      "name": "Table 1",
+      "capacity": 4,
+      "section": "AC Dining",
+      "status": "preparing",
+      "active": true,
+      "currentOrderId": "ord-1792689405682-357"
+    },
+    {
+      "id": "tbl-2",
+      "tableNumber": 2,
+      "name": "Table 2",
+      "capacity": 4,
+      "section": "AC Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-3",
+      "tableNumber": 3,
+      "name": "Table 3",
+      "capacity": 4,
+      "section": "AC Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-4",
+      "tableNumber": 4,
+      "name": "Table 4",
+      "capacity": 6,
+      "section": "AC Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-5",
+      "tableNumber": 5,
+      "name": "Table 5",
+      "capacity": 6,
+      "section": "AC Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-6",
+      "tableNumber": 6,
+      "name": "Table 6",
+      "capacity": 4,
+      "section": "Main Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-7",
+      "tableNumber": 7,
+      "name": "Table 7",
+      "capacity": 4,
+      "section": "Main Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-8",
+      "tableNumber": 8,
+      "name": "Table 8",
+      "capacity": 4,
+      "section": "Main Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-9",
+      "tableNumber": 9,
+      "name": "Table 9",
+      "capacity": 6,
+      "section": "Main Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-10",
+      "tableNumber": 10,
+      "name": "Table 10",
+      "capacity": 6,
+      "section": "Main Dining",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-11",
+      "tableNumber": 11,
+      "name": "Table 11",
+      "capacity": 8,
+      "section": "Family Section",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-12",
+      "tableNumber": 12,
+      "name": "Table 12",
+      "capacity": 8,
+      "section": "Family Section",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-13",
+      "tableNumber": 13,
+      "name": "Table 13",
+      "capacity": 8,
+      "section": "Family Section",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-14",
+      "tableNumber": 14,
+      "name": "Table 14",
+      "capacity": 4,
+      "section": "Outdoor Garden",
+      "status": "available",
+      "active": true
+    },
+    {
+      "id": "tbl-15",
+      "tableNumber": 15,
+      "name": "Table 15",
+      "capacity": 2,
+      "section": "Outdoor Garden",
+      "status": "available",
+      "active": true
+    }
+  ],
+  "menu": [
+    {
+      "id": "m-1",
+      "name": "Ghee Podi Masala Dosa",
+      "tamilName": "நெய் பொடி மசால் தோசை",
+      "category": "Breakfast / Tiffin",
+      "price": 110,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild",
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Sambar",
+          "price": 15
+        },
+        {
+          "name": "Extra Ghee Roast",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-2",
+      "name": "Crispy Plain Dosa",
+      "tamilName": "மொறு மொறு தோசை",
+      "category": "Breakfast / Tiffin",
+      "price": 75,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Chutney",
+          "price": 10
+        },
+        {
+          "name": "Podi Topping",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "m-3",
+      "name": "Steamed Idli (2 Pcs)",
+      "tamilName": "மல்லிகைப் பூ இட்லி (2)",
+      "category": "Breakfast / Tiffin",
+      "price": 45,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "Ghee & Gunpowder",
+          "price": 20
+        },
+        {
+          "name": "Sambar Dip",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "m-4",
+      "name": "Crispy Medu Vada (2 Pcs)",
+      "tamilName": "மெது வடை (2)",
+      "category": "Breakfast / Tiffin",
+      "price": 55,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "Sambar Vada Dip",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-5",
+      "name": "Ghee Ven Pongal",
+      "tamilName": "நெய் வெண் பொங்கல்",
+      "category": "Breakfast / Tiffin",
+      "price": 70,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "With 1 Vada",
+          "price": 25
+        },
+        {
+          "name": "Extra Ghee Cashew",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-6",
+      "name": "Onion Rava Dosa",
+      "tamilName": "வெங்காய ரவா தோசை",
+      "category": "Breakfast / Tiffin",
+      "price": 95,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Onion & Cashew",
+          "price": 25
+        }
+      ]
+    },
+    {
+      "id": "m-7",
+      "name": "Poori Masala (2 Pcs)",
+      "tamilName": "பூரி கிழங்கு (2)",
+      "category": "Breakfast / Tiffin",
+      "price": 80,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild",
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Potato Masala",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-8",
+      "name": "Sri Raghavi Special South Indian Meals",
+      "tamilName": "ஸ்ரீ ராகவி ஸ்பெஷல் சாப்பாடு",
+      "category": "Meals & Thali",
+      "price": 150,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 20,
+      "spiceOptions": [
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Appalam (2 Pcs)",
+          "price": 10
+        },
+        {
+          "name": "Payasam Cup",
+          "price": 25
+        },
+        {
+          "name": "Special Ghee",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "m-9",
+      "name": "South Indian Mini Meals",
+      "tamilName": "மினி சாப்பாடு (கலவை சாதம்)",
+      "category": "Meals & Thali",
+      "price": 110,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Curd Rice Cup",
+          "price": 30
+        }
+      ]
+    },
+    {
+      "id": "m-10",
+      "name": "Creamy Curd Rice (Thayir Sadam)",
+      "tamilName": "தாளித்த தயிர் சாதம்",
+      "category": "Meals & Thali",
+      "price": 70,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "Pomegranate Topping",
+          "price": 15
+        },
+        {
+          "name": "Mavadu Pickle",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "m-11",
+      "name": "Chettinad Chicken Biryani",
+      "tamilName": "செட்டிநாடு சிக்கன் பிரியாணி",
+      "category": "Biryani & Rice",
+      "price": 220,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": [
+        {
+          "name": "Boiled Egg",
+          "price": 15
+        },
+        {
+          "name": "Extra Onion Raita",
+          "price": 15
+        },
+        {
+          "name": "Extra Salna / Gravy",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-12",
+      "name": "Ambur Mutton Biryani (Seeraga Samba)",
+      "tamilName": "ஆம்பூர் மட்டன் பிரியாணி",
+      "category": "Biryani & Rice",
+      "price": 290,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 20,
+      "spiceOptions": [
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": [
+        {
+          "name": "Boiled Egg",
+          "price": 15
+        },
+        {
+          "name": "Brinjal Gravy (Ennai Kathirikai)",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-13",
+      "name": "Paneer & Veg Dum Biryani",
+      "tamilName": "பன்னீர் காய்கறி பிரியாணி",
+      "category": "Biryani & Rice",
+      "price": 180,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Mild",
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Paneer Cubes",
+          "price": 35
+        },
+        {
+          "name": "Raita",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "m-14",
+      "name": "Chettinad Chicken 65 (Boneless)",
+      "tamilName": "சிக்கன் 65",
+      "category": "Starters & Snacks",
+      "price": 190,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": [
+        {
+          "name": "Lemon & Fried Curry Leaves",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "m-15",
+      "name": "Paneer 65 Crisp",
+      "tamilName": "பன்னீர் 65",
+      "category": "Starters & Snacks",
+      "price": 160,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Mint Chutney",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "id": "m-16",
+      "name": "Crispy Gobi Manchurian",
+      "tamilName": "கோபி மஞ்சூரியன்",
+      "category": "Starters & Snacks",
+      "price": 140,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild",
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": []
+    },
+    {
+      "id": "m-17",
+      "name": "Pepper Chicken Chukka",
+      "tamilName": "மிளகு சிக்கன் சுக்கா",
+      "category": "Starters & Snacks",
+      "price": 210,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Spicy"
+      ],
+      "addOns": []
+    },
+    {
+      "id": "m-18",
+      "name": "Malabar Parotta (2 Pcs)",
+      "tamilName": "மலபார் பரோட்டா (2)",
+      "category": "Breads & Curries",
+      "price": 55,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Salna",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": "m-19",
+      "name": "Chicken Kothu Parotta",
+      "tamilName": "சிக்கன் கொத்து பரோட்டா",
+      "category": "Breads & Curries",
+      "price": 180,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": [
+        {
+          "name": "Egg Bullseye on Top",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-20",
+      "name": "Butter Naan (1 Pc)",
+      "tamilName": "பட்டர் நான்",
+      "category": "Breads & Curries",
+      "price": 45,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [
+        "Mild"
+      ],
+      "addOns": []
+    },
+    {
+      "id": "m-21",
+      "name": "Paneer Butter Masala",
+      "tamilName": "பன்னீர் பட்டர் மசாலா",
+      "category": "Breads & Curries",
+      "price": 175,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [
+        "Mild",
+        "Medium"
+      ],
+      "addOns": [
+        {
+          "name": "Extra Butter Cream",
+          "price": 20
+        }
+      ]
+    },
+    {
+      "id": "m-22",
+      "name": "Chettinad Chicken Gravy",
+      "tamilName": "செட்டிநாடு சிக்கன் குழம்பு",
+      "category": "Breads & Curries",
+      "price": 210,
+      "isVeg": false,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 15,
+      "spiceOptions": [
+        "Medium",
+        "Spicy"
+      ],
+      "addOns": []
+    },
+    {
+      "id": "m-23",
+      "name": "South Indian Filter Coffee (Degree)",
+      "tamilName": "டிகிரி பில்டர் காபி",
+      "category": "Beverages & Desserts",
+      "price": 35,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [],
+      "addOns": [
+        {
+          "name": "Extra Strong Decoction",
+          "price": 5
+        },
+        {
+          "name": "Less Sugar",
+          "price": 0
+        }
+      ]
+    },
+    {
+      "id": "m-24",
+      "name": "Masala Chai / Sukku Malli Tea",
+      "tamilName": "சுக்கு மல்லி காபி / மசாலா டீ",
+      "category": "Beverages & Desserts",
+      "price": 30,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [],
+      "addOns": []
+    },
+    {
+      "id": "m-25",
+      "name": "Elaneer Payasam (Tender Coconut Kheer)",
+      "tamilName": "இளநீர் பாயாசம்",
+      "category": "Beverages & Desserts",
+      "price": 65,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 10,
+      "spiceOptions": [],
+      "addOns": []
+    },
+    {
+      "id": "m-26",
+      "name": "Hot Gulab Jamun (2 Pcs)",
+      "tamilName": "சூடான குலாப் ஜாமுன் (2)",
+      "category": "Beverages & Desserts",
+      "price": 50,
+      "isVeg": true,
+      "isAvailable": true,
+      "stockQuantity": null,
+      "parcelCharge": 5,
+      "spiceOptions": [],
+      "addOns": [
+        {
+          "name": "Vanilla Ice Cream Scoop",
+          "price": 30
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1792689405682-357",
+      "orderNumber": 101,
+      "tableId": "tbl-1",
+      "tableNumber": 1,
+      "waiterId": "w-1",
+      "waiterName": "Raju",
+      "items": [
+        {
+          "id": "oi-1792689405682-0",
+          "itemId": "m-1",
+          "name": "Ghee Podi Masala Dosa",
+          "tamilName": "நெய் பொடி மசால் தோசை",
+          "quantity": 2,
+          "unitPrice": 110,
+          "spiceLevel": "Medium",
+          "selectedAddOns": [
+            {
+              "name": "Extra Sambar",
+              "price": 15
+            }
+          ],
+          "notes": "Crispy roast please",
+          "isParcel": false,
+          "parcelCharge": 10,
+          "totalPrice": 250
+        }
+      ],
+      "status": "new",
+      "isEntireOrderParcel": false,
+      "billRequested": false,
+      "subtotal": 250,
+      "parcelTotal": 0,
+      "taxAmount": 13,
+      "discountAmount": 0,
+      "grandTotal": 263,
+      "paymentStatus": "unpaid",
+      "createdAt": "2026-10-22T17:16:45.682Z",
+      "updatedAt": "2026-10-22T17:16:45.682Z"
+    }
+  ],
+  "waiters": [
+    {
+      "id": "w-1",
+      "name": "Raju",
+      "pin": "1001",
+      "phone": "9840112233",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.631Z"
+    },
+    {
+      "id": "w-2",
+      "name": "Priya",
+      "pin": "1002",
+      "phone": "9840112234",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-3",
+      "name": "Karthik",
+      "pin": "1003",
+      "phone": "9840112235",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-4",
+      "name": "Anitha",
+      "pin": "1004",
+      "phone": "9840112236",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-5",
+      "name": "Murugan",
+      "pin": "1005",
+      "phone": "9840112237",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-6",
+      "name": "Suresh",
+      "pin": "1006",
+      "phone": "9840112238",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-7",
+      "name": "Deepa",
+      "pin": "1007",
+      "phone": "9840112239",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-8",
+      "name": "Ramesh",
+      "pin": "1008",
+      "phone": "9840112240",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-9",
+      "name": "Meena",
+      "pin": "1009",
+      "phone": "9840112241",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-10",
+      "name": "Vignesh",
+      "pin": "1010",
+      "phone": "9840112242",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-11",
+      "name": "Saravanan",
+      "pin": "1011",
+      "phone": "9840112243",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    },
+    {
+      "id": "w-12",
+      "name": "Kavitha",
+      "pin": "1012",
+      "phone": "9840112244",
+      "active": true,
+      "totalOrdersServed": 0,
+      "createdAt": "2026-10-22T17:09:53.632Z"
+    }
+  ],
+  "requests": [],
+  "lastOrderNumber": 101,
+  "version": 1
+}

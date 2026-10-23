@@ -1,0 +1,7 @@
+{
+  "name": "Sri Raghavi Kitchen POS",
+  "description": "Professional restaurant POS and Kitchen Order Display System for Sri Raghavi Kitchen with live waiter ordering, real-time sync, sound alerts, and billing management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
